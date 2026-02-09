@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"hello-world/arrays"
 	"hello-world/conditionals"
+	"hello-world/maps"
 	"hello-world/variables"
 )
 
@@ -20,4 +21,7 @@ func main() {
 	arrays.SimpleArray()
 	arrays.SimpleAutodefinedArray()
 	arrays.SliceArray()
+	fmt.Println("========== Comma-OK Idiom ==========")
+	maps.BasicTypeInsertion()
+	maps.CommaOK()
 }
