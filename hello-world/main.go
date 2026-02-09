@@ -19,4 +19,5 @@ func main() {
 	fmt.Println("========== Array ==========")
 	arrays.SimpleArray()
 	arrays.SimpleAutodefinedArray()
+	arrays.SliceArray()
 }
