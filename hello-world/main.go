@@ -5,6 +5,7 @@ import (
 	"hello-world/arrays"
 	"hello-world/conditionals"
 	"hello-world/maps"
+	structtags "hello-world/struct-tags"
 	"hello-world/variables"
 )
 
@@ -24,4 +25,6 @@ func main() {
 	fmt.Println("========== Comma-OK Idiom ==========")
 	maps.BasicTypeInsertion()
 	maps.CommaOK()
+	fmt.Println("========== Struct Tags ==========")
+	structtags.TagExample()
 }
