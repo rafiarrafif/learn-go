@@ -26,3 +26,15 @@ func TagExample() {
 		fmt.Println("Unknown grade")
 	}
 }
+
+func CreateStruct() {
+	student := Student{
+		Fullname: "Vladilena",
+		Email: "lena@syzne.com",
+		Age: 16,
+		Grade: 95.88,
+	}
+
+	fmt.Println("My name is: ", student.Fullname)
+	fmt.Println("My grade is: ", student.Grade)
+}

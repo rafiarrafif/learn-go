@@ -27,4 +27,5 @@ func main() {
 	maps.CommaOK()
 	fmt.Println("========== Struct Tags ==========")
 	structtags.TagExample()
+	structtags.CreateStruct()
 }
